@@ -13,5 +13,7 @@ steps:
     azureSubscription: dtlqa
 
     WebAppName: 'vincalinux'
+    
+    WebAppKind: 'webAppLinux'
 
     packageForLinux: 'C:\Users\suaggar\Downloads\Asp4.zip'
