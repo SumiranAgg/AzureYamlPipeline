@@ -10,7 +10,7 @@ steps:
 - task: AzureRmWebAppDeployment@4
   displayName: 'Azure App Service Deploy: others-update2'
   inputs:
-    azureSubscription: 'dtlqa'
+    azureSubscription: dtlqa
 
     WebAppName: 'AjyaApp'
 
