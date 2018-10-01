@@ -12,6 +12,12 @@ steps:
   inputs:
     azureSubscription: dtlqa
 
-    WebAppName: 'AjyaApp'
+    WebAppName: 'suaggarContainerApp'
 
     packageForLinux: 'C:\Users\suaggar\Downloads\Asp4.zip'
+    
+    DockerNamespace: shanu07
+
+    DockerRepository: mydockerimage
+
+    DockerImageTag: v1.0.0
