@@ -3,14 +3,15 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-pool:
-  vmImage: 'Ubuntu 16.04'
+queue:
+  name: Default
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+- task: AzureRmWebAppDeployment@4
+  displayName: 'Azure App Service Deploy: others-update2'
+  inputs:
+    azureSubscription: 'dtlqa'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+    WebAppName: 'AjyaApp'
+
+    packageForLinux: 'C:\Users\suaggar\Asp4.zip'
