@@ -14,4 +14,4 @@ steps:
 
     WebAppName: 'AjyaApp'
 
-    packageForLinux: 'C:\Users\suaggar\Asp4.zip'
+    packageForLinux: 'C:\Users\suaggar\Downloads\Asp4.zip'
