@@ -12,12 +12,6 @@ steps:
   inputs:
     azureSubscription: dtlqa
 
-    WebAppName: 'suaggarContainerApp'
+    WebAppName: 'vincalinux'
 
     packageForLinux: 'C:\Users\suaggar\Downloads\Asp4.zip'
-    
-    DockerNamespace: shanu07
-
-    DockerRepository: mydockerimage
-
-    DockerImageTag: v1.0.0
