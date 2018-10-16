@@ -7,6 +7,13 @@ queue:
   name: Default
 
 steps:
+- powershell: |
+   
+   Write-Host $(abc)
+    Write-Host $(yamlFilePath)
+   
+  displayName: 'PowerShell Script'
+  
 - task: AzureRmWebAppDeployment@4
   displayName: 'Azure App Service Deploy: others-update2'
   inputs:
@@ -19,4 +26,4 @@ steps:
     packageForLinux: 'C:\Users\suaggar\Downloads\Asp4.zip'
 
 variables:
-  abc: 'def'
+  abc: def
