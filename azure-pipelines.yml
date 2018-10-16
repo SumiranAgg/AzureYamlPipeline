@@ -17,3 +17,6 @@ steps:
     WebAppKind: 'webAppLinux'
 
     packageForLinux: 'C:\Users\suaggar\Downloads\Asp4.zip'
+
+variables:
+  abc: 'def'
